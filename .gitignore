@@ -1,0 +1,43 @@
+# ==========================================
+# Banco de Dados Local (Dados de Teste)
+# ==========================================
+# Impede que o seu banco SQLite local vá para o GitHub
+*.db
+*.db-journal
+*.db-wal
+
+# ==========================================
+# Ambiente Virtual (Poetry / venv)
+# ==========================================
+# Ignora os pacotes baixados dentro do seu projeto
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Cache do Python e Compilação
+# ==========================================
+# Ignora arquivos temporários que o Python cria ao rodar o app
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# Configurações do Editor (VS Code)
+# ==========================================
+# Ignora histórico e configs locais do seu VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# ==========================================
+# Sistema Operacional
+# ==========================================
+# Arquivos inúteis que o Windows e Mac criam nas pastas
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
